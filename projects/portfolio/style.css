@@ -98,21 +98,34 @@ a {
   font-size: 2.8rem;
   margin-bottom: 20px;
   text-shadow: #aaaaaa 0 0 10px;
-  content: '';
-      animation: animateText 1.5s forwards;
+  content: '|';
+      animation: animateText 2s forwards ;
 }
     @keyframes animateText {
-      0%{content:'';}
-      10%{content:'H';}
-       20%{content:'He';}
-       30%{content:'Hey';}
-       40%{content:'Hey I';}
-       50%{content:'Hey It';}
-       60%{content:'Hey Its';}
-       70%{content:'Hey Its F';}
-       80%{content:'Hey Its, Fa';}
-       90%{content:'Hey Its, Fai';}
-       100%{content:'Hey Its, Faiz 👋';}
+     0%{
+       content: '|';
+     }
+      20% {
+    content: 'Web|';
+  }
+  40% {
+    content: 'Web designer|';
+  }
+  50% {
+    content: 'Web|';
+  }
+  70% {
+    content: '|';
+  }
+  80% {
+    content: 'Front|';
+  }
+  90% {
+    content: 'Front end|';
+  }
+  100% {
+    content: 'Front end developer|';
+  }
     }
 .hero p {
   font-family: "Atma", sans-serif;
