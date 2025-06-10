@@ -93,38 +93,44 @@ a {
   margin-bottom: 20px;
   text-shadow: #aaaaaa 0 0 10px;
 }
-.hero h1:after{
-  font-family: "Kablammo", sans-serif;
-  font-size: 2.8rem;
+.hero h2:after{
+  font-family: "Atma", sans-serif;
+  font-size: 1.5rem;
   margin-bottom: 20px;
-  text-shadow: #aaaaaa 0 0 10px;
+
   content: '|';
-      animation: animateText 2s forwards ;
+      animation: animateText 5s infinite ;
+      transition: animation ease-in-out;
 }
     @keyframes animateText {
      0%{
        content: '|';
      }
-      20% {
+      10% {
     content: 'Web|';
   }
-  40% {
+  20% {
     content: 'Web designer|';
   }
-  50% {
+  40% {
     content: 'Web|';
   }
-  70% {
+  50% {
     content: '|';
   }
-  80% {
-    content: 'Front|';
+  60% {
+    content: 'Front-end|';
   }
-  90% {
-    content: 'Front end|';
+
+  70% {
+    content: 'Front-end developer|';
   }
-  100% {
-    content: 'Front end developer|';
+   80% {
+    content: 'Front-end|';
+  }
+
+   100% {
+    content: '|';
   }
     }
 .hero p {
