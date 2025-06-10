@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Sour Gummy", sans-serif;
-  background-color: #191A25;
+  background-color: #191a25;
   color: white;
 }
 
@@ -14,7 +14,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background: #0C0F21;
+  background: #0c0f21;
   padding: 10px 20px;
 }
 
@@ -93,46 +93,46 @@ a {
   margin-bottom: 20px;
   text-shadow: #aaaaaa 0 0 10px;
 }
-.hero h2:after{
+.hero h2:after {
   font-family: "Atma", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 20px;
 
-  content: '|';
-      animation: animateText 5s infinite ;
-      transition: animation ease-in-out;
+  content: "|";
+  animation: animateText 5s infinite;
+  transition: animation ease-in-out;
 }
-    @keyframes animateText {
-     0%{
-       content: '|';
-     }
-      10% {
-    content: 'Web|';
+@keyframes animateText {
+  0% {
+    content: "|";
+  }
+  10% {
+    content: "Web|";
   }
   20% {
-    content: 'Web designer|';
+    content: "Web designer|";
   }
   40% {
-    content: 'Web|';
+    content: "Web|";
   }
   50% {
-    content: '|';
+    content: "|";
   }
   60% {
-    content: 'Front-end|';
+    content: "Front-end|";
   }
 
   70% {
-    content: 'Front-end developer|';
+    content: "Front-end developer|";
   }
-   80% {
-    content: 'Front-end|';
+  80% {
+    content: "Front-end|";
   }
 
-   100% {
-    content: '|';
+  100% {
+    content: "|";
   }
-    }
+}
 .hero p {
   font-family: "Atma", sans-serif;
   font-size: 1.2rem;
@@ -154,7 +154,7 @@ a {
 }
 
 footer {
-  background: #0C0F21;
+  background: #0c0f21;
   text-align: center;
   padding: 5px 10px;
   font-size: 0.9rem;
@@ -163,12 +163,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-#but {
-  display: none;
-  border-radius: 2px;
-  border: none;
-  margin: 10px;
-}
+
 #containerskills {
   display: flex;
   justify-content: space-between;
@@ -177,42 +172,42 @@ footer {
 }
 @media (max-width: 768px) {
   .bottom-nav {
-  position: fixed;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.5rem 1.2rem;
-  border-radius: 999px;
-  z-index: 999;
- animation: fadeUp 0.7s ease-out forwards;
-  opacity: 0;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-  
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 999px;
+    z-index: 999;
+    animation: fadeUp 0.7s ease-out forwards;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
   .bottom-nav a {
     color: white;
   }
-  
-@keyframes fadeUp {
-  from {
-    transform: translate(-50%, 100%);
-    opacity: 0;
+
+  @keyframes fadeUp {
+    from {
+      transform: translate(-50%, 100%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(-50%, 0%);
+      opacity: 1;
+    }
   }
-  to {
-    transform: translate(-50%, 0%);
-    opacity: 1;
-  }
-}
-  
+
   .project-button {
     font-size: 0.9rem;
     padding: 8px 16px;
@@ -224,8 +219,9 @@ footer {
   .hero h1 {
     font-size: 1.8rem;
   }
-  
-  .navbar,footer {
+
+  .navbar,
+  footer {
     display: none;
   }
   #containerskills {
@@ -233,20 +229,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
- } 
+  }
 }
-
-
-
 
 .follow-icon {
-  width:  25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
-
-@media (min-width: 768px){
-  .bottom-nav { 
+@media (min-width: 768px) {
+  .bottom-nav {
     display: none;
   }
 }
