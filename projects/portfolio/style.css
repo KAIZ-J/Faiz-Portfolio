@@ -233,12 +233,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-  }
-
-  .hero h1:after{
-  font-size: 2rem;}
-  
+ } 
 }
 
 
