@@ -106,29 +106,150 @@ a {
   0% {
     content: "|";
   }
+  2% {
+    content: "W|";
+  }
+  4% {
+    content: "We|";
+  }
+  6% {
+    content: "Web|";
+  }
+  8% {
+    content: "Web d|";
+  }
   10% {
-    content: "Web|";
+  content: "Web de|";
+}
+12% {
+  content: "Web des|";
+}
+14% {
+  content: "Web desi|";
+}
+16% {
+  content: "Web desig|";
+}
+18% {
+  content: "Web design|";
+}
+20% {
+  content: "Web designe|";
+}
+22% {
+  content: "Web designer|";
+}
+24% {
+  content: "Web designe|";
+}
+26% {
+  content: "Web design|";
+}
+28% {
+  content: "Web desig|";
+}
+30% {
+  content: "Web desi|";
+}
+32% {
+  content: "Web des|";
+}
+34% {
+  content: "Web de|";
+}
+36% {
+  content: "Web d|";
+}
+38% {
+  content: "We|";
+}
+40% {
+  content: "W|";
+}
+42% {
+  content: "|";
+}
+  44% {
+    content: "F|";
   }
-  20% {
-    content: "Web designer|";
+  46% {
+    content: "Fr|";
   }
-  40% {
-    content: "Web|";
+  48% {
+    content: "Fro|";
   }
-  50% {
-    content: "|";
+50% {
+  content: "Fron|";
+}
+  52% {
+    content: "Front|";
   }
-  60% {
-    content: "Front-end|";
+  54% {
+    content: "Front-|";
   }
-
-  70% {
-    content: "Front-end developer|";
+  56% {
+    content: "Front-|";
   }
-  80% {
-    content: "Front-end|";
-  }
-
+58% {
+  content: "Front-e|";
+}
+60% {
+  content: "Front-en|";
+}
+62% {
+  content: "Front-end|";
+}
+64% {
+  content: "Front-end D|";
+}
+66% {
+  content: "Front-end De|";
+}
+68% {
+  content: "Front-end De|";
+}
+70% {
+  content: "Front-end Dev|";
+}
+72% {
+  content: "Front-end Dev|";
+}
+74% {
+  content: "Front-end De|";
+}
+76% {
+  content: "Front-end D|";
+}
+78% {
+  content: "Front-end|";
+}
+80% {
+  content: "Front-en|";
+}
+82% {
+  content: "Front-e|";
+}
+84% {
+  content: "Front-|";
+}
+86% {
+  content: "Front|";
+}
+88% {
+  content: "Fron|";
+}
+90% {
+  content: "Fro|";
+}
+92% {
+  content: "Fr|";
+}
+94% {
+  content: "F|";
+}
+96% {
+  content: "F|";
+}
   100% {
     content: "|";
   }
