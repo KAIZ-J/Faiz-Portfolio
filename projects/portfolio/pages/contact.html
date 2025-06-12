@@ -9,165 +9,161 @@
   <link rel="shortcut icon" href="/projects/portfolio/assets/favicon-16x16.png" type="image/png">
   <link rel="stylesheet" href="/projects/portfolio/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kablammo|Sour Gummy|Atma">
-      <style>
-     .Contacts textarea {
-  resize: vertical;
-  max-height: 150px;
-  min-height: 100px;
-  border-radius: 5px;
+  <style>
+    .Contacts textarea {
+      resize: vertical;
+      max-height: 150px;
+      min-height: 100px;
+      border-radius: 5px;
+      
+    }
+    
+    .contain-forms {
+      display: flex;
+      gap: 120px;
+      align-items: flex-start;
+      justify-content: center;
+      white-space: nowrap;
+      flex-wrap: wrap;
+    }
+    
+    .Contacts h2,
+    h5 {
+      text-align: center;
+    }
+    
+    .Contacts a {
+      color: white;
+      transition: color 0.3s;
+      cursor: pointer;
+    }
+    
+    .Contacts a:hover {
+      color: blue;
+    }
+    
+    .Contacts input {
+      border-radius: 5px;
+      border: none;
+      height: 25px;
+    }
+    
+    .Contacts button {
+      border-radius: 10px;
+      border: none;
+      height: 25px;
+      width: 60px;
+    }
+    
+    .Contacts button:hover {
+      background-color: rgb(56, 49, 155);
+      color: antiquewhite;
+    }
+    
+    @media (max-width:768px) {
+      
+      .contain-forms {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        flex-direction: column;
+      }
+    }
+    
+    .nav-links a:nth-child(5) {
+      color: rgb(54, 44, 197);
+    }
+    
+    .bottom-nav a:nth-child(5) {
+      color: #00FFF4;
+      border-bottom: #00FFF4 solid;
+      width: 100%;
+      transition: 0.5s ease;
+      
+    }
+  </style>
   
-}
-
-.contain-forms {
-  display: flex;
-  gap: 120px;
-  align-items: flex-start;
-  justify-content: center;
-  white-space: nowrap;
-  flex-wrap: wrap;
-}
-
-.Contacts h2,
-h5 {
-  text-align: center;
-}
-.Contacts  a {
-  color: white;
-  transition: color 0.3s;
-  cursor: pointer;
-}
-.Contacts a:hover {
-  color: blue;
-}
-
-.Contacts input {
-  border-radius: 5px;
-  border: none;
-  height: 25px;
-}
-
-.Contacts button {
-  border-radius: 10px;
-  border: none;
-  height: 25px;
-  width: 60px;
-}
-.Contacts button:hover {
-  background-color: rgb(56, 49, 155);
-  color: antiquewhite;
-}
-      @media (max-width:768px) {
-
-     .contain-forms {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    flex-direction: column;
-  }}
-
-      .nav-links a:nth-child(5){
-color: rgb(54, 44, 197);
-       }
-       .bottom-nav a:nth-child(5){
-color: #00FFF4;
-border-bottom: #00FFF4 solid;
-width: 100%;
-transition: 0.5s ease;
-
-       }
-    </style>
-
-
-
+  
+  
 </head>
 
 <body>
- <nav class="navbar">
-   
-   <a href="#" class="logo">
-     <img src="/projects/portfolio/assets/1000242016-removebg-preview.png" alt="logo" />
-   </a>
-   <div class="nav-links">
-     <a href="/index.html">Home</a>
-     <a href="/projects/portfolio/pages/abt.html">About Me</a>
-     <a href="/projects/portfolio/pages/skills.html">Skills</a>
-     <a href="/projects/portfolio/pages/projects.html">Projects</a>
-     <a href="/projects/portfolio/pages/contact.html">Contact</a>
-   </div>
-   <div class="follow-dropdown">
-     <button>Follow</button>
-     <div class="dropdown-content">
-       <a href="https://www.youtube.com/" target="_blank">
-         <img src="/projects/portfolio/assets/video.png" class="follow-icon" alt="">
-       </a>
-       <a href="https://www.tiktok.com/" target="_blank">
-         <img src="/projects/portfolio/assets/tik-tok.png" class="follow-icon" alt="">
-       </a>
-       <a href="https://www.linkedin.com/" target="_blank">
-         <img src="/projects/portfolio/assets/social.png" class="follow-icon" alt="">
-       </a>
-       <a href="https://twitter.com/" target="_blank">
-         <img src="/projects/portfolio/assets/twitter.png" class="follow-icon" alt="">
-         
-       </a>
-     </div>
-   </div>
- </nav>
- <div class="bottom-nav">
-   <a href="/index.html">Home</a>
-   <a href="/projects/portfolio/pages/abt.html">About</a>
-   <a href="/projects/portfolio/pages/skills.html">Skills</a>
-   <a href="/projects/portfolio/pages/projects.html">Projects</a>
-   <a href="/projects/portfolio/pages/contact.html">Contact</a>
- </div>
- <br />
-  
- <div class="Contacts" >
-      <h2>Get In Touch</h2>
-      <div class="contain-forms">
-        <div>
-          <p>Contact me</p>
-          <ul>
-            <li>📧faiz@gmail.com</li>
-            <br />
-            <li>📞 +251 923 98 43 02</li>
-          </ul>
-        </div>
-        <div>
-          <p>Send me a message!</p>
-          <form action="https://api.web3forms.com/submit" method="POST">
-            <input
-              type="hidden"
-              name="access_key"
-              value="3473a7fa-5dbd-4bfb-afec-387ad59549f8"
-            />
-            <label for="email">Email:</label> <br />
-            <input
-              type="email"
-              id="Name"
-              name="Email"
-              placeholder="John@gmail.com"
-              required
-            /><br /><br />
-            <label for="message">Message:</label> <br />
-            <textarea name="message" id="message" rows="1"></textarea> <br />
-
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <div>
-          <p>Follow me</p>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-youtube"></i></a>
-          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-          <a href=""><i class="fa-brands fa-pinterest"></i></a>
-          <br>
+  <nav class="navbar">
+    
+    <a href="#" class="logo">
+      <img src="/projects/portfolio/assets/1000242016-removebg-preview.png" alt="logo" />
+    </a>
+    <div class="nav-links">
+      <a href="/index.html">Home</a>
+      <a href="/projects/portfolio/pages/abt.html">About Me</a>
+      <a href="/projects/portfolio/pages/skills.html">Skills</a>
+      <a href="/projects/portfolio/pages/projects.html">Projects</a>
+      <a href="/projects/portfolio/pages/contact.html">Contact</a>
+    </div>
+    <div class="follow-dropdown">
+      <button>Follow</button>
+      <div class="dropdown-content">
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="/projects/portfolio/assets/video.png" class="follow-icon" alt="">
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank">
+          <img src="/projects/portfolio/assets/tik-tok.png" class="follow-icon" alt="">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="/projects/portfolio/assets/social.png" class="follow-icon" alt="">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="/projects/portfolio/assets/twitter.png" class="follow-icon" alt="">
           
-        </div>
+        </a>
       </div>
     </div>
+  </nav>
+  <div class="bottom-nav">
+    <a href="/index.html">Home</a>
+    <a href="/projects/portfolio/pages/abt.html">About</a>
+    <a href="/projects/portfolio/pages/skills.html">Skills</a>
+    <a href="/projects/portfolio/pages/projects.html">Projects</a>
+    <a href="/projects/portfolio/pages/contact.html">Contact</a>
+  </div>
+  <br />
+  
+  <div class="Contacts">
+    <h2>Get In Touch</h2>
+    <div class="contain-forms">
+      <div>
+        <p>Contact me</p>
+        <ul>
+          <li>📧faiz@gmail.com</li>
+          <br />
+          <li>📞 +251 923 98 43 02</li>
+        </ul>
+      </div>
+      <div>
+        <p>Send me a message!</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="3473a7fa-5dbd-4bfb-afec-387ad59549f8" />
+          <label for="email">Email:</label> <br />
+          <input type="email" id="Name" name="Email" placeholder="John@gmail.com" required /><br /><br />
+          <label for="message">Message:</label> <br />
+          <textarea name="message" id="message" rows="1"></textarea> <br />
+          
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div>
+        <p>Follow me</p>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        <br>
+        
+      </div>
+    </div>
+  </div>
   <footer>
     <p>&copy; 2025 Fazi — No Copyright Intended</p>
     
