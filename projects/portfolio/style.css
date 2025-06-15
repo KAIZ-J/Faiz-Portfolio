@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Sour Gummy", sans-serif;
+  font-family: Montserrat;
   background-color: #191a25;
   color: white;
 }
@@ -50,7 +50,7 @@ a {
   border: none;
   border-radius: 10px;
   padding: 5px 15px;
-  font-family: "Sour Gummy", sans-serif;
+  font-family: Montserrat;
   cursor: pointer;
 }
 
@@ -88,13 +88,13 @@ a {
 }
 
 .hero h1 {
-  font-family: "Kablammo", sans-serif;
-  font-size: 2.8rem;
+  font-family: Raleway;
+  font-size: 2rem;
   margin-bottom: 20px;
   text-shadow: #aaaaaa 0 0 10px;
 }
 .hero h2:after {
-  font-family: "Atma", sans-serif;
+  font-family: Poppins;
   font-size: 1.5rem;
   margin-bottom: 20px;
 
@@ -255,7 +255,7 @@ a {
   }
 }
 .hero p {
-  font-family: "Atma", sans-serif;
+  font-family: Montserrat;
   font-size: 1.2rem;
   margin-bottom: 30px;
   line-height: 1.6;
