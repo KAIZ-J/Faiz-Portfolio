@@ -363,3 +363,11 @@ footer {
     display: none;
   }
 }
+
+
+.bottom-nav a.active{
+color:#bcfffd  ;
+border-bottom: #bcfffd  solid;
+width: 100%;
+transition: 0.5s ease;
+       }
