@@ -91,7 +91,7 @@ a {
   font-family: Galindo;
   font-size: 2rem;
   margin-bottom: 20px;
-  text-shadow: #aaaaaa 0 0 10px;
+  text-shadow: #aaaaaa 0 0 9px;
 }
 .hero h2:after {
   font-family: Poppins;
@@ -256,7 +256,7 @@ a {
 }
 .hero p {
   font-family: Montserrat;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 30px;
   line-height: 1.6;
 }
