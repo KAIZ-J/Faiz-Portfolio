@@ -92,12 +92,15 @@ a {
   font-size: 2rem;
   margin-bottom: 20px;
   text-shadow: #aaaaaa 0 0 9px;
+  
 }
 .hero h2:after {
   font-family: Poppins;
   font-size: 1.5rem;
   margin-bottom: 20px;
-
+background: linear-gradient(#bdc3c7,#2c3e50);
+  background-clip: text;
+  color: transparent;
   content: "|";
   animation: animateText 5s infinite;
   transition: animation ease-in-out;
