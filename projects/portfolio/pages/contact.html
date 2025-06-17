@@ -10,6 +10,21 @@
   <link rel="stylesheet" href="/projects/portfolio/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kablammo|Sour Gummy|Atma|Poppins|Montserrat">
   <style>
+.Contacts  form{
+    position: relative;
+  }
+  .label {
+    position: absolute;
+    transform: translateY(-1.2rem);
+    pointer-events: none;
+    transition: 0.3s ease;
+    
+  }
+  .Contacts input:focus + .label ,
+.Contacts input:not(:placeholder-shown) + .label
+    {
+    transform: translate(10px, -40px) scale(.8);
+  }
   
     .Contacts textarea {
       resize: vertical;
@@ -136,8 +151,9 @@
         <p>Send me a message!</p>
         <form action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="3473a7fa-5dbd-4bfb-afec-387ad59549f8" />
-          <label for="email">Email:</label> <br />
-          <input type="email" id="Name" name="Email" placeholder="John@gmail.com" required /><br /><br />
+
+          <input type="email" id="Name" name="Email" required placeholder=" " />
+                    <div  class="label">Email:</div> <br /><br /><br />
           <label for="message">Message:</label> <br />
           <textarea name="message" id="message" rows="1"></textarea> <br />
           
